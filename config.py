@@ -1,20 +1,20 @@
 import os
 
-API_ID = API_ID = 20200825
+API_ID = API_ID = 24709391
 
-API_HASH = os.environ.get("API_HASH", "7e7f93e266c390d9cc5c2bffbe921e36")
+API_HASH = os.environ.get("API_HASH", "cb1ba6bba27a3c68d219e5e34419cb5e")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6535968101:AAFO4BnJlqGM5-EZ_h4XO7YXufbjsdq1JQw")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7148960116:AAHmmwTof2WIyKPPyV4oFZUIPYxeicBYYds")
 
 PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
-OWNER = int(os.environ.get("OWNER", 5008977329))
+OWNER = int(os.environ.get("OWNER", 1923238241))
 
-LOG = -1001907859284,
+LOG = -1001931388060,
 
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5008977329").split()):
+    for x in (os.environ.get("ADMINS", "1923238241").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
